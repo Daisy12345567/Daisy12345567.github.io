@@ -19,9 +19,9 @@ Password<input type="password" name="haha"/>
 <script language="javascript">
 function check(form)
 {
- if(form.userid.value === "myuserid" && form.pswrd.value === "mypswrd")
+ if(form.userid.value === "msLaing" && form.pswrd.value === "haha")
   {
-    window.open('https://daisy12345567.github.io/index.html')
+    window.open('https://Daisy12345567.github.io/index.html')
   }
  else
  {
@@ -29,8 +29,5 @@ function check(form)
   }
 }
 </script>
-<h1>
-Trial
-</h1>
 </body>
 </html>
