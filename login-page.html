@@ -5,11 +5,18 @@ Login page
 </title>
 </head>
 <body>
-<h1 style="font-family:Times;
-font-size:20pt;
-background(0,10,20)>
-Simple Login Page
-</h1>
+<style>
+ body {
+  background: green;
+ }
+h1 {
+    font-family: Times;
+    font-size: 20pt;
+ }
+ </style>
+ <h1>
+  Simple Login Page
+ </h1>
 <form name="login">
 Username<input type="text" name="userid"/>
 Password<input type="password" name="pswrd"/>
@@ -17,10 +24,8 @@ Password<input type="password" name="pswrd"/>
 <input type="reset" value="Cancel"/>
 </form>
 <script language="javascript">
-function check(form)
-{
- if(form.userid.value === "msLaing" && form.pswrd.value === "haha")
-  {
+function check(form) {
+    if (form.userid.value === "user" && form.pswrd.value === "password") {
     window.open('https://Daisy12345567.github.io/index.html')
   }
  else
