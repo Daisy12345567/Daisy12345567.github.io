@@ -1,21 +1,28 @@
-<h5 id="Detail-Page"> Singles:First Album Details</h5>
- </p>
+<html>
+<head>
+<title>
+Album Page
+</title>
+</head>
 <style>
-  h5  {
+  h5 {
        background-color: lightblue;
-            font-family: Times;
-            font-size: 40px;
-            text-align: center;
-            color:gray;
-           }
+       font-family: Times;
+       font-size: 40px;
+       text-align: center;
+       color: gray;
+       }
+  h4 {
+      text-align: center;
+      font-size: 30px;
+      }
 </style>
+<body>
+<h5 id="Detail-Page"> Singles:First Album Details</h5>
   <img src="https://images-na.ssl-images-amazon.com/images/I/61O%2BOKafWCL.jpg" width="600" height="600">
 <h4> Songs in "Singles"</h4>
 <style>
-     h4 {
-    text-align: center;
-         font-size: 30px;
-    }
+     
 </style>
 <ol>
     <li>This Love</li>
@@ -29,6 +36,7 @@
     <li> Makes Me Wonder </li>
     <li> Animals </li>
     <li> Daylight </li>
-    <li> Sugar </li>
-        
+    <li> Sugar </li>   
 </ol>
+</body>
+</html>
