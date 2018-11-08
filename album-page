@@ -1,0 +1,24 @@
+<body>
+<h4> Songs in "Singles"</h4>
+<style>
+     h4 {
+    text-align: center;
+         font-size: 30px;
+    }
+</style>
+<ol>
+    <li>This Love</li>
+    <li>Payphone</li>
+    <li>She Will Be Loved</li>
+    <li>One More Night</li> 
+    <li>Moves like Jagger</li>
+    <li>Wake Up Call</li>
+    <li> Misery </li>
+    <li> Maps </li>
+    <li> Makes Me Wonder </li>
+    <li> Animals </li>
+    <li> Daylight </li>
+    <li> Sugar </li>
+        
+</ol>
+</body>
