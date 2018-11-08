@@ -38,5 +38,24 @@ Album Page
     <li> Daylight </li>
     <li> Sugar </li>   
 </ol>
+
+<p>Select your favorite album:</p>
+<form action="/action_page.php">
+  <input type="radio" name="album" onclick="myFunction(this.value)" value="Red Pill Blues">Red Pill Blues<br>
+  <input type="radio" name="album" onclick="myFunction(this.value)" value="V">V<br>
+  <input type="radio" name="album" onclick="myFunction(this.value)" value="Singles">Singles<br>
+  <input type="radio" name="album" onclick="myFunction(this.value)" value="Helix:Volume I">Helix:Volume I<br>
+  <input type="radio" name="album" onclick="myFunction(this.value)" value="Helix: Volume II">Helix: Volume II<br><br>
+
+  Your favorite album is: <input type="text" id="result">
+  <input type="submit" value="Submit form">
+</form>
+
+<script>
+function myFunction(album) {
+    document.getElementById("result").value = album;
+}
+</script>
+
 </body>
 </html>
